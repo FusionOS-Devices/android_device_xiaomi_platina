@@ -22,9 +22,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/bliss_platina.mk
+    $(LOCAL_DIR)/aosp_platina.mk
 
 COMMON_LUNCH_CHOICES := \
-    bliss_platina-eng \
-    bliss_platina-userdebug \
-    bliss_platina-user
+    aosp_platina-eng \
+    aosp_platina-userdebug \
+    aosp_platina-user
