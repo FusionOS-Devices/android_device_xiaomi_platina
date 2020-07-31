@@ -37,6 +37,7 @@ $(call inherit-product, vendor/xiaomi/MiuiCamera/config.mk)
 
 # Inherit AOSP product configuration
 TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_INCLUDE_WIFI_EXT := true
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="platina" \
