@@ -32,6 +32,9 @@ $(call inherit-product, device/xiaomi/platina/device.mk)
 # Inherit some common Fusion stuff.
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
+# Inherit MIUI Camera
+$(call inherit-product, vendor/xiaomi/MiuiCamera/config.mk)
+
 # Inherit AOSP product configuration
 TARGET_BOOT_ANIMATION_RES := 1080
 
